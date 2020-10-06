@@ -17,5 +17,11 @@ public class SeleniumEasyPrincipalPage {
       Target.the("Texto del pdf")
           .located(By.xpath("//*[@id=\"tab3\"]/table/tbody/tr[1]/td[1]/span"));
 
+  public static final Target BTN_SUCURSALES =
+      Target.the("btn")
+          .located(
+              By.xpath(
+                  "//body/div[@id='main-content']/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/a[1]"));
+
   private SeleniumEasyPrincipalPage() {}
 }
